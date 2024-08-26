@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav style={styles.nav}>
       <ul style={styles.ul}>
         <li style={styles.li}>
-          <Link to="/" style={styles.link}>Portfolio</Link>
+          <Link to="/" style={styles.link}>About Me</Link>
         </li>
         <li style={styles.li}>
-          <Link to="/aboutme" style={styles.link}>About Me</Link>
+          <Link to="/portfolio" style={styles.link}>Portfolio</Link>
         </li>
         <li style={styles.li}>
           <Link to="/contact" style={styles.link}>Contact</Link>

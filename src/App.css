@@ -10,19 +10,6 @@ body {
   background-color: whitesmoke;
 }
 
-.bucket-app {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 800px;
-  min-height: 600px;
-  background: black;
-  text-align: center;
-  margin: 32px auto;
-  border-radius: 20px;
-  padding-bottom: 32px;
-}
-
 h1 {
   margin: 32px 0;
   color: #fff;
@@ -34,6 +21,33 @@ h3 {
   color: rgb(66, 171, 231);
   font-size: 20px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 8px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  padding: 16px;
+  border-radius: 20px 20px 0 0;
+}
+
 
 .container {
   display: flex;
@@ -134,4 +148,9 @@ h3 {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #5d0cff;
+}
+
+.responsive-image {
+  max-width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
 }

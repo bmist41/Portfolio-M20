@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/about';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import './index.css'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
