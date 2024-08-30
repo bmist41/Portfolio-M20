@@ -1,6 +1,6 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
-import './Portfoliome.css';
+import './Portfolio.css';
 
 const projects = [
     { title: 'Project 1', description: 'Description of Project 1' },

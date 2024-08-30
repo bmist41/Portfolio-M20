@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/NavBar'; // Import Navbar
+import Navbar from './components/Navbarme'; // Import Navbar
 import { Outlet } from 'react-router-dom';
 
 const App = ({ children }) => {
