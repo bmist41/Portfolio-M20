@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/about.jsx';
 import Portfolio from './pages/portfolio.jsx';
 import Contact from './pages/contact.jsx';
 import Navbar from './components/NavBar.jsx';
 import './index.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App.jsx';
 
 const router = createBrowserRouter([
   {
