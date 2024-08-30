@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import About from './pages/about.jsx';
-import Portfolio from './pages/portfolio.jsx';
-import Contact from './pages/contact.jsx';
+import About from './pages/Aboutme.jsx';
+import Portfolio from './pages/Portfoliome.jsx';
+import Contact from './pages/Contactme.jsx';
 import './index.css'; 
 import App from './App.jsx';
 
