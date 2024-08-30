@@ -1,6 +1,7 @@
 {
   "name": "main",
   "private": true,
+  "homepage": "splendorous-cascaron-3b2cef.netlify.app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
