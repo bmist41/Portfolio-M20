@@ -6,7 +6,6 @@ import Portfolio from './pages/portfolio.jsx';
 import Contact from './pages/contact.jsx';
 import Navbar from './components/NavBar.jsx';
 import './index.css'; 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx';
 
 const router = createBrowserRouter([
