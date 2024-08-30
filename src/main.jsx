@@ -7,6 +7,30 @@ import Contact from '../pages/contact.jsx';
 import Navbar from '../components/NavBar.jsx';
 import './index.css'; 
 
+onst router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <About />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
+      },
+      {
+        path: 'portfolio',
+        element: <Portfolio />,
+      },
+    ],
+  },
+]);
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
